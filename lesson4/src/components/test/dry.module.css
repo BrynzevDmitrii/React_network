@@ -1,0 +1,14 @@
+.flex {
+    display: flex;
+}
+.black{
+
+    background-color: black;
+    color: white;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
