@@ -1,0 +1,81 @@
+.colocol {
+  width: 50px;
+  height: 50px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+}
+
+.real {
+  display: grid;
+  grid-template-areas: "hed hed"
+  "nav use";
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 100px 1fr;
+}
+
+.heder {
+  grid-area: hed;
+  background:url(https://oir.mobi/uploads/posts/2021-03/1616564142_26-p-fon-dlya-yutub-kanala-30.jpg);
+  border-radius: 20px;
+  box-shadow: lightcoral;
+}
+
+.navb {
+grid-area: nav;
+background-color: rgb(236, 252, 255);
+}
+
+.userface {
+  grid-area: use;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.cursor:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: rgb(223, 236, 223);
+  border-radius: 1rem;
+}
+.yyy{
+  background-color: gold;
+}
+.freandSay{
+  display: flex;
+  background-color: rgb(88, 88, 180); 
+  border-radius: 1rem;
+  margin: 2rem 0 2rem 1rem;
+  padding:1rem 1rem  0 1rem;
+  height: max-content;
+  width: max-content; 
+  flex-wrap: nowrap ;
+}
+.imSay{
+  display: flex;
+  background-color: rgb(111, 143, 113);
+  justify-content: flex-end;
+  width: 350px; 
+  height: max-content;
+  border-radius: 1rem;
+  margin: 2rem 0 2rem 1rem;
+  padding:1rem 1rem  0 1rem;
+  
+
+}
+.red{
+  background-color: red;
+}
