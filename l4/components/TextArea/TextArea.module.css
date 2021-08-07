@@ -1,0 +1,18 @@
+.textarea{
+    width:50rem;
+    height:2rem;
+    border-radius: 10px;
+    border: 5px coral solid;
+}
+
+.button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(131, 166, 231);
+    margin: 50px 0 0 30px;
+
+}
+.center{
+    margin: 0 auto;
+}
